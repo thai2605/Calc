@@ -1,0 +1,71 @@
+/* mobile and tablet */
+@media (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    .app{
+        margin: 0;
+        overflow: hidden;
+    }
+    .manager__content p{
+        font-size: 1rem;
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+}
+@media (min-width:739px) and (max-width:1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .teamcolor__goal-link{
+        margin-left: 40px;
+      }
+      .manager__content{
+        flex-wrap: wrap;
+        margin: 10px 0;
+    }
+   .manager__content-sub{
+       margin: 5px;
+   }
+   .manager__content p{
+    font-size: 1.4rem;
+   }
+}
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .row{
+        margin-right: 0;
+    }
+    .header {
+        height: 60px;
+    }
+    .header__logo{
+        height: 60px;
+    }
+    .header__logo-img{
+        width: 100px;
+    }
+    .slideshow-container{
+        top: 60px;
+    }
+    .content{
+        height: 375px;
+    }
+    .mySlides img{
+        height: 300px;
+    }
+    .manager__content{
+        flex-wrap: wrap;
+        margin:10px ;
+    }
+    .manager__img{
+        width: 130%;
+        height: 150%;
+    }
+   
+    .teamcolor__goal-item{
+        width: 100%;
+    }
+}
